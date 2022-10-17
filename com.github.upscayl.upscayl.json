@@ -31,7 +31,6 @@
       "sources": [
         {
           "type": "file",
-          "only-arches": ["x86_64"],
           "url": "https://github.com/upscayl/upscayl/releases/download/v1.5.5/upscayl-1.5.5.zip",
           "sha256": "e3f716ab624bc4c8929bf1cdd51005d51edd078846870dc526e1eb761ab7ec92"
         },

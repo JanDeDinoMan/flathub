@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop">
-    <id>org.upscayl.app</id>
+    <id>com.github.upscayl.upscayl</id>
     <name>Upscayl</name>
     <summary>Free and Open Source AI Image Upscaler</summary>
     <developer_name>Nayam Amarshe, TGS963</developer_name>
-    <launchable type="desktop-id">org.upscayl.app.desktop</launchable>
+    <launchable type="desktop-id">com.github.upscayl.upscayl.desktop</launchable>
     <metadata_license>FSFAP</metadata_license>
     <project_license>AGPL-3.0</project_license>
     <description>
@@ -25,5 +25,28 @@
         <keyword>waifu2x</keyword>
         <keyword>ai</keyword>
     </keywords>
-    <translation type="gettext">Upscayl</translation>
+    <screenshots>
+        <screenshot type="default">
+            <image type="source">https://images2.imgbox.com/96/c4/I7jbUOVk_o.png</image>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://images2.imgbox.com/61/18/VkBxt9rQ_o.png</image>
+        </screenshot>
+    </screenshots>
+    
+    <releases>
+        <release date="2022-09-30" version="1.5.5">
+          <description>
+            <p>Flatpak release!</p>
+            <p>Bug Fixes:</p>
+            <ul>
+              <li>Fixed invalid Image bug</li>
+              <li>New Dropdown menu with Search capability</li>
+              <li>Add disable Favorites tab option</li>
+              <li>Fixed other minor UI issues</li>
+              <li>And many more!</li>
+            </ul>
+          </description>
+        </release>
+    </releases>
 </component>
